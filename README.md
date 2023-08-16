@@ -3,4 +3,4 @@ Recrear la imagen que se encuentra adjunta con html y css (flexbox), algo pareci
 
 ![Imagen a Recrear](public/MarioBros.png?raw=true)
 
-![Solución](public/quizresuelto.png.png?raw=true)
+![Solución](public/quizresuelto.png?raw=true)
