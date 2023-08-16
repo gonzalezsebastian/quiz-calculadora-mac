@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.fila{
+  display: flex;
+  flex-direction: row;
+}
+
+.pixel {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+
+.rojo {
+  background-color: #fe0100;
+}
+
+.negro {
+  background-color: #000;
+}
+
+.piel {
+  background-color: #fcb383;
+}
+
+.azul {
+  background-color: #0001fe;
+}
+
+.amarillo {
+  background-color: #fefe01;
+}
+
+.marron {
+  background-color: #291004;
+} 
