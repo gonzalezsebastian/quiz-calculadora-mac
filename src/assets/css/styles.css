@@ -1,44 +1,62 @@
-body {
+html body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   margin: 0;
-  background-color: #f0f0f0;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.fila{
+html body .calculadora {
+  width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 64px rgba(0, 0, 0, 0.5);
+}
+
+html body .calculadora .display {
+  background-color: #4d4d4c;
+  color: white;
+  font-size: 4em;
+  padding: 0.5em 0.2em 0 0;
+  text-align: right;
+}
+
+html body .calculadora .fila .boton {
+  background-color: #4d4d4c;
+}
+
+html body .boton .fila button {
+  flex-grow: 1;
+  max-width: 75px;
+  padding: 15px;
+  font-size: 1.6em;
+  border: solid 1px gray;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html body .calculadora .fila {
   display: flex;
-  flex-direction: row;
 }
 
-.pixel {
-  width: 24px;
-  height: 24px;
-  border: 1px solid #fff;
-  background-color: transparent;
+html body .boton .fila button.cero {
+  max-width: 50%;
+  text-align: left;
+  padding-left: 20px;
 }
 
-.rojo {
-  background-color: #fe0100;
+html body .boton .fila .boton_gris {
+  background-color: #d5d7d7;
 }
 
-.negro {
-  background-color: #000;
+html body .boton .fila .boton_gris_claro {
+  background-color: #dfe0e0;
+  font-weight: bold;
 }
 
-.piel {
-  background-color: #fcb383;
+html body .boton .fila .boton_naranja {
+  background-color: #f79230;
+  color: white;
 }
-
-.azul {
-  background-color: #0001fe;
-}
-
-.amarillo {
-  background-color: #fefe01;
-}
-
-.marron {
-  background-color: #291004;
-} 

@@ -1,6 +1,6 @@
-# Quiz #1
-Recrear la imagen que se encuentra adjunta con html y css (flexbox), algo parecido al ejemplo que se realizo el primer día de clases con el tablero de ajedrez.
+# Quiz #2
+Recrear la imagen que se encuentra adjunta con html y css.
 
-![Imagen a Recrear](public/MarioBros.png?raw=true)
+![Imagen a Recrear](public/quiz.png?raw=true)
 
-![Solución](public/quizresuelto.png?raw=true)
+![Solución](public/calculadoraresuelta.png?raw=true)

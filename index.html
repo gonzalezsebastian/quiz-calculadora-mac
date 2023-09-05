@@ -3,266 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/assets/css/reset.css">
   <link rel="stylesheet" href="/src/assets/css/styles.css">
-  <title>Quiz</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+  </style>
+  <title>Quiz Calculadora Mac</title>
 </head>
 <body>
-  <div class="mario-bros">
-    <div class="fila">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
+  <div class="calculadora">
+    <div class="display">
+      <span>0</span>
     </div>
-    <div class="fila">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel  rojo"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class="fila">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel negro"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class="fila">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel negro"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class="fila">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class="fila">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class="fila">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class="fila">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class="fila">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class="fila">
-      <div class="pixel"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class="fila">
-      <div class="pixel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel azul"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class="fila">
-      <div class="pixel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel amarillo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel amarillo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class="fila">
-      <div class="pixel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel piel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class="fila">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel rojo"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class="fila">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class="fila">
-      <div class="pixel"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel marron"></div>
-      <div class="pixel"></div>
+    <div class="boton">
+      <div class="fila">
+        <button class="boton_gris">AC</button>
+        <button class="boton_gris">+/-</button>
+        <button class="boton_gris">%</button>
+        <button class="boton_naranja">/</button>
+      </div>
+      <div class="fila">
+        <button class="boton_gris_claro">7</button>
+        <button class="boton_gris_claro">8</button>
+        <button class="boton_gris_claro">9</button>
+        <button class="boton_naranja">x</button>
+      </div>
+      <div class="fila">
+        <button class="boton_gris_claro">4</button>
+        <button class="boton_gris_claro">5</button>
+        <button class="boton_gris_claro">6</button>
+        <button class="boton_naranja">-</button>
+      </div>
+      <div class="fila">
+        <button class="boton_gris_claro">1</button>
+        <button class="boton_gris_claro">2</button>
+        <button class="boton_gris_claro">3</button>
+        <button class="boton_naranja">+</button>
+      </div>
+      <div class="fila">
+        <button class="boton_gris_claro cero">0</button>
+        <button class="boton_gris_claro">,</button>
+        <button class="boton_naranja">=</button>
+      </div>
     </div>
   </div>
 </body>
